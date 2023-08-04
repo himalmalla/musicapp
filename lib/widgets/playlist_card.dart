@@ -18,8 +18,8 @@ class PlaylistCard extends StatelessWidget {
       },
       child: Container(
         height: 75,
-        margin: EdgeInsets.only(bottom: 10),
-        padding: EdgeInsets.symmetric(horizontal: 20),
+        margin: const EdgeInsets.only(bottom: 10),
+        padding: const EdgeInsets.symmetric(horizontal: 20),
         decoration: BoxDecoration(
             color: Colors.deepPurple.shade800.withOpacity(0.6),
             borderRadius: BorderRadius.circular(15.0)),
